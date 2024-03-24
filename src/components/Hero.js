@@ -1,31 +1,35 @@
 import React from 'react';
-import '../styles/Navbar.css'
+import '../styles/Navbar.css';
+import '../styles/MainPage.css';
+import { ArrowRight } from 'lucide-react';
+import beetleimage from '../imges/200.png';
+
 
 const Hero = () => {
     return (
         <>
             <header className='header'>
-                <div className='ls'>
-                    <button className='ls-button'>
-                        Beetle Beetle
-                    </button>
+                <div className='first-section'>
+                    <img className='beetle-image' src={beetleimage} alt="Beetle Beetle" />
                 </div>
-                <div className='ms'>
-                    <div>Industries</div>
-                    <div>Product</div>
-                    <div>Calculator</div>
-                </div>
-                <div className='rs'>
-                    <div>Login</div>
-                    <div>
-                        <button className='rs-button'>Request a Demo</button>
+                <div className="second-section">
+                    <div className='middle-section'>
+                        <div className='industries'>Industries</div>
+                        <div className='product'>Product</div>
+                        <div className='calc'>Calculator</div>
+                    </div>
+                    <div className='right-section'>
+                        <div className='login'>Login</div>
+                        <div className='request'>
+                            <button className='right-section-button'>Request a Demo <ArrowRight /></button>
+                        </div>
                     </div>
                 </div>
             </header>
 
 
-            <div>
-                MAIN
+            <div >
+                Hello
             </div>
         </>
     )
