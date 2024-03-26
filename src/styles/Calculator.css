@@ -1,0 +1,101 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.calculate-page {
+    margin-top: 80px;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.parts {
+    flex: 1;
+    padding: 20px;
+}
+
+.accord {
+    margin-left: 80px;
+    width: 65%;
+    margin-top: 10px;
+}
+
+.accord-titles {
+    margin-bottom: 20px;
+    margin-left: 80px;
+    width: 65%;
+    
+}
+
+.style-item{
+    font-weight: 700;
+}
+
+.accordion-item {
+    background-color: rgba(241, 234, 250, 1);
+}
+
+.accordion-button {
+    background-color: rgba(241, 234, 250, 1);
+}
+
+.accordion-body {
+    background-color: rgba(241, 234, 250, 1);
+}
+
+.my-accordians {
+    margin-top: 30px;
+}
+
+/* .accord-item {
+    border: 1px solid;
+    border-radius: 50px;
+} */
+
+
+
+
+/* Operations */
+
+.operations {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 12px 64px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 24px;
+    /* background-color: black; */
+    padding: 20px;
+}
+
+.part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 95px;
+    background-color: rgba(234, 223, 248, 0.4);
+    border-radius: 24px;
+    border: none;
+    text-align: center;
+    align-items: center;
+}
+
+.labels {
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.inputs {
+    width: 95%;
+    height: 40px;
+    background-color: rgba(234, 223, 248, 0.6);
+    border-radius: 100px;
+    border: none;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}

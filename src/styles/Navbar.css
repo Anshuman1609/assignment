@@ -1,15 +1,15 @@
 .header{
+    color: white;
     height: 80px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
+    /* z-index: 999;
     position: fixed;
     top: 0;
     left: 0;
-    right: 0;
-    z-index: 100;
+    right: 0; */
     background-color: #180932;
     border-bottom-width: 1px;
 }
@@ -42,6 +42,7 @@
 }
 
 .right-section{
+    margin-right: 2px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -49,10 +50,18 @@
     margin-right: -70px;
 }
 
-
-
-
-
+.right-section-button{
+    background-color: #180932;
+    color: white;
+    border: solid 1px;
+    border-radius: 50px;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.industries, .product{
+    margin-right: 50px;
+}
 
 
 

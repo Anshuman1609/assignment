@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/Navbar.css';
-import '../styles/MainPage.css';
 import { ArrowRight } from 'lucide-react';
 import beetleimage from '../imges/200.png';
 
@@ -26,9 +25,7 @@ const Hero = () => {
                     </div>
                 </div>
             </header>
-
-
-            <div >
+            <div className='main-page'>
                 Hello
             </div>
         </>
