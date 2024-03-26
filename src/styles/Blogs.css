@@ -1,0 +1,25 @@
+.blog-nav, .search-button, .search-input{
+    background-color: rgba(234, 223, 248, 0.64);
+    border-radius: 50px;
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.blog-nav, .blog-nav-active{
+    margin-right: 12px;
+    padding: 10px;
+}
+
+.blog-nav-active{
+    background-color: rgba(135, 83, 212, 1);
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

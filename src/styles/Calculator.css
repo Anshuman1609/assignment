@@ -29,10 +29,10 @@ body {
     margin-bottom: 20px;
     margin-left: 80px;
     width: 65%;
-    
+
 }
 
-.style-item{
+.style-item {
     font-weight: 700;
 }
 
@@ -40,13 +40,18 @@ body {
     background-color: rgba(241, 234, 250, 1);
 }
 
-.accordion-button {
-    background-color: rgba(241, 234, 250, 1);
+.accordion .accordion-button,
+.accordion .accordion-button:focus,
+.accordion .accordion-button:active {
+    background-color: rgba(241, 234, 250, 1) !important;
+    /* Your desired background color */
 }
+
 
 .accordion-body {
     background-color: rgba(241, 234, 250, 1);
 }
+
 
 .my-accordians {
     margin-top: 30px;

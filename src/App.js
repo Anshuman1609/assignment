@@ -1,5 +1,5 @@
 import './App.css';
-// import Blogs from './components/Blogs';
+import Blogs from './components/Blogs';
 import Calculator from './components/Calculator';
 import Hero from './components/Hero';
 
@@ -8,7 +8,7 @@ function App() {
     <div >
       <Hero />
       <Calculator />
-      {/* <Blogs /> */}
+      <Blogs />
     </div>
   );
 }
