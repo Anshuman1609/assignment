@@ -23,3 +23,16 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+.card-title{
+    font-size: 16px;
+    color: rgba(135, 83, 212, 1);
+}
+.card-text{
+    font-size: 24px;
+    color: rgba(18, 9, 32, 1);
+}
+.description-more{
+    font-size: 18px;
+    color: rgba(18, 9, 32, 1);
+}

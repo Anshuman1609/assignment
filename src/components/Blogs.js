@@ -12,28 +12,28 @@ const Blogs = () => {
       <Blognavbar />
       <div className='container my-5'>
         <div className="cards">
-          <div className="card" style={{width: '18rem'}}>
+          <div className="card my-card" style={{width: '20rem', marginBottom: '20px' }}>
             <img src={img2022} className="card-img-top" alt="..." />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <p className="card-title">Card title</p>
               <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="/" className="btn btn-primary">Go somewhere</a>
+              <p className="description-more"> Quick </p>
             </div>
           </div>
-          <div className="card" style={{width: '18rem'}}>
+          <div className="card" style={{width: '20rem', marginBottom: '20px' }}>
             <img src={frag} className="card-img-top" alt="..." />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <p className="card-title">Card title</p>
               <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="/" className="btn btn-primary">Go somewhere</a>
+              <p className="description-more"> Quick </p>
             </div>
           </div>
-          <div className="card" style={{width: '18rem'}}>
+          <div className="card" style={{width: '20rem', marginBottom: '20px' }}>
             <img src={coding} className="card-img-top" alt="..." />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <p className="card-title">Card title</p>
               <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="/" className="btn btn-primary">Go somewhere</a>
+              <p className="description-more"> Quick </p>
             </div>
           </div>
         </div>
