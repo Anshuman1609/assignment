@@ -1,4 +1,4 @@
-/* Style the dropdown button */
+
 .custom-dropbtn {
     background-color: rgba(24, 9, 50, 1);
     color: white;
@@ -9,19 +9,18 @@
 
 }
 
-/* Dropdown button on hover & focus */
+
 .custom-dropbtn:hover,
 .custom-dropbtn:focus {
     opacity: 0.5;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .custom-dropdown {
     position: relative;
     display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
+
 .custom-dropdown-content {
     display: none;
     position: absolute;
@@ -34,35 +33,26 @@
 }
 
 .rowing {
-    display: flex;
-    justify-content: flex-start;
+    display: grid;
+     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     padding: 8px 16px;
 }
 
-/* Links inside the dropdown */
-/* .custom-dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-} */
 .custom-dropdown-content a {
     color: black;
     padding: 8px 16px;
     text-decoration: none;
     display: block;
     padding: 12px 36px;
-    /* Increased padding for bigger size and more spacing */
     font-size: 18px;
 }
 
-/* Change color of dropdown links on hover */
+
 .custom-dropdown-content a:hover {
     background-color: #f1f1f1;
 }
 
-/* Show the dropdown menu */
 .show {
     display: block;
 }

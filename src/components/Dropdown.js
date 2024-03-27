@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import '../styles/Drop.css';
-import { ArrowRight, ChevronDown } from 'lucide-react';
+import { ChevronDown, ArrowRight } from 'lucide-react';
 
-
-const CustomDropdown = ({ name }) => {
+const CustomDropdown = ({ name, options }) => {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
     const toggleDropdown = () => {
@@ -30,16 +29,11 @@ const CustomDropdown = ({ name }) => {
             <div id="myCustomDropdown" className={`custom-dropdown-content ${isDropdownOpen ? 'show' : ''}`}>
                 <h4>{name}<ArrowRight /></h4>
                 <div className="rowing">
-                    <a href="/">Option 1</a>
-                    <a href="/">Option 2</a>
-                </div>
-                <div className="rowing">
-                    <a href="/">Option 3</a>
-                    <a href="/">Option 4</a>
-                </div>
-                <div className="rowing">
-                    <a href="/">Option 5</a>
-                    <a href="/">Option 6</a>
+                    {options.map((option, index) => (
+                        <div key={index} className="rowing">
+                            <img src={option} />
+                        </div>
+                    ))}
                 </div>
             </div>
         </div>
@@ -48,6 +42,7 @@ const CustomDropdown = ({ name }) => {
 
 CustomDropdown.propTypes = {
     name: PropTypes.string.isRequired,
+    options: PropTypes.array.isRequired,
 };
 
 export default CustomDropdown;

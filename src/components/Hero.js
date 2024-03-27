@@ -1,12 +1,42 @@
 import React from 'react';
 import '../styles/Navbar.css';
-import { ArrowRight} from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import beetleimage from '../imges/200.png';
 import Main from './Main';
 import CustomDropdown from './Dropdown';
+import capital from '../imges/industry/capital.jpg';
+import crm from '../imges/industry/crm.jpg';
+import equity from '../imges/industry/equity.jpg';
+import estate from '../imges/industry/estate.jpg';
+import invest from '../imges/industry/invest.jpg';
+import manda from '../imges/industry/manda.jpg';
+import crom from '../imges/products/crm.jpg';
+import deal from '../imges/products/deal.jpg';
+import integr from '../imges/products/integr.jpg';
+import mobile from '../imges/products/mobile.jpg';
+import relation from '../imges/products/relation.jpg';
+import report from '../imges/products/report.jpg';
+import sales from '../imges/products/sales.jpg';
 
 
 const Hero = () => {
+    const industry = [
+        capital,
+        crm,
+        equity,
+        estate,
+        invest,
+        manda
+    ];
+    const products = [
+        crom,
+        deal,
+        integr,
+        mobile,
+        relation,
+        report,
+        sales
+    ];
     return (
         <>
             <nav className="navbar pt-4 navbar-expand-lg navbar-expand-md" style={{ backgroundColor: '#180932' }}>
@@ -27,10 +57,10 @@ const Hero = () => {
                                     <button className="nav-link nav-colors" style={{ color: 'white' }}>Products<ChevronDown /></button>
                                 </li> */}
                                 <li className="nav-item">
-                                    <CustomDropdown name='Industries' />
+                                    <CustomDropdown name='Industries' options={industry} />
                                 </li>
                                 <li className="nav-item">
-                                    <CustomDropdown name='Products' />
+                                    <CustomDropdown name='Products' options={products} />
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link nav-colors" href='/'>Calculator</a>

@@ -44,7 +44,6 @@ body {
 .accordion .accordion-button:focus,
 .accordion .accordion-button:active {
     background-color: rgba(241, 234, 250, 1) !important;
-    /* Your desired background color */
 }
 
 
@@ -56,12 +55,6 @@ body {
 .my-accordians {
     margin-top: 30px;
 }
-
-/* .accord-item {
-    border: 1px solid;
-    border-radius: 50px;
-} */
-
 
 
 
