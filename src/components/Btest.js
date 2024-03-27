@@ -3,6 +3,7 @@ import '../styles/Btest.css';
 import img2022 from '../imges/2022.jpg';
 import coding from '../imges/coding.jpg';
 import frag from '../imges/frag.jpg';
+import { ArrowDown } from 'lucide-react';
 
 const Btest = () => {
     useEffect(() => {
@@ -98,7 +99,7 @@ const Btest = () => {
 
                 </div>
 
-                <div id="load-more"> load more </div>
+                <div id="load-more"> load more <ArrowDown /> </div>
 
             </div>
         </>

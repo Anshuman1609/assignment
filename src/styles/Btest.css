@@ -112,10 +112,12 @@
     display: inline-block;
     padding: 13px 30px;
     border: 1px solid #334;
+    border-radius: 83px;
     color: #334;
     font-size: 16px;
     background-color: #fff;
     cursor: pointer;
+    font-weight: 700;
 }
 
 #load-more:hover {
