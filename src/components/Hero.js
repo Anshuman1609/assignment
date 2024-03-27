@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/Navbar.css';
 import {ArrowRight, ChevronDown } from 'lucide-react';
 import beetleimage from '../imges/200.png';
+import Main from './Main';
 
 
 const Hero = () => {
@@ -40,9 +41,7 @@ const Hero = () => {
                     </div>
                 </div>
             </nav>
-            <div className='main-page'>
-                Hello
-            </div>
+            <Main />
         </>
     )
 }

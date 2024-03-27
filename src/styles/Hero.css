@@ -1,0 +1,11 @@
+.main-page{
+    background-color: rgba(24, 9,50, 1);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.left-main, .right-main{
+    flex: 1;
+    text-align: center;
+}
