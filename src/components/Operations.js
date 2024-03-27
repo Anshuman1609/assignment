@@ -1,21 +1,30 @@
 import React, { useEffect, useState } from 'react';
 import '../styles/Calculator.css';
+import Box from '@mui/material/Box';
+import Slider from '@mui/material/Slider';
 
 const Operations = () => {
     const [teamMembers, setTeamMembers] = useState('');
     const [networkSize, setNetworkSize] = useState('');
     const [signalsPerContact, setSignalsPerContact] = useState('');
-    const [legitimateSignals, setLegitimateSignals] = useState('');
-    const [uniqueSignals, setUniqueSignals] = useState('');
+    const [legitimateSignals, setLegitimateSignals] = useState(10);
+    const [uniqueSignals, setUniqueSignals] = useState(20);
     const [calculatedResult, setCalculatedResult] = useState('');
+
+    const handleLegSignal = (e) => {
+        setLegitimateSignals(e.target.value);
+    }
+    const handleSignalValue = (e) => {
+        setUniqueSignals(e.target.value);
+    }
 
     useEffect(() => {
         const calculateResult = () => {
-            const result = (parseInt(teamMembers) || 0) * (parseInt(networkSize) || 0) * (parseFloat(signalsPerContact) || 0) * (parseInt(legitimateSignals) / 100 || 0) * (parseInt(uniqueSignals) / 100 || 0);
+            const result = (parseInt(teamMembers) || 0) * (parseInt(networkSize) || 0) * (parseFloat(signalsPerContact) || 0) * (legitimateSignals / 100 || 0) * (uniqueSignals / 100 || 0);
             setCalculatedResult(result);
         };
 
-        calculateResult() ;
+        calculateResult();
     }, [teamMembers, networkSize, signalsPerContact, legitimateSignals, uniqueSignals]);
 
 
@@ -41,11 +50,17 @@ const Operations = () => {
                 </div>
                 <div className='part'>
                     <label className='labels style-item'>% Legitimate Signals</label>
-                    <input className='inputs' type="number" value={legitimateSignals} onChange={(e) => { setLegitimateSignals(e.target.value); }} />
+                    <Box style={{ width: '90%' }}>
+                        <Slider defaultValue={50} aria-label="Default" valueLabelDisplay="auto" onChange={handleLegSignal} value={legitimateSignals} />
+                    </Box>
+                    {/* <input className='inputs' type="number" value={legitimateSignals} onChange={(e) => { setLegitimateSignals(e.target.value); }} /> */}
                 </div>
                 <div className='part'>
                     <label className='labels style-item'>% Unique/Hard To Discover Signals</label>
-                    <input className='inputs' type="number" value={uniqueSignals} onChange={(e) => { setUniqueSignals(e.target.value); }} />
+                    <Box style={{ width: '90%' }}>
+                        <Slider defaultValue={50} aria-label="Default" valueLabelDisplay="auto" onChange={handleSignalValue} value={uniqueSignals} />
+                    </Box>
+                    {/* <input className='inputs' type="number" value={uniqueSignals} onChange={(e) => { setUniqueSignals(e.target.value); }} /> */}
                 </div>
                 <div className='part'>
                     <label style={{ fontSize: '20px' }} className='labels style-item'>Number of New Signals</label>
