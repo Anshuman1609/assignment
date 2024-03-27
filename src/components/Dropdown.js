@@ -31,7 +31,7 @@ const CustomDropdown = ({ name, options }) => {
                 <div className="rowing">
                     {options.map((option, index) => (
                         <div key={index} className="rowing">
-                            <img src={option} />
+                            <img src={option} alt='...' />
                         </div>
                     ))}
                 </div>
