@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import '../styles/Drop.css'; // Assuming you have the CSS file in the same directory
+import '../styles/Drop.css';
 import { ArrowRight, ChevronDown } from 'lucide-react';
 
 
@@ -17,7 +17,6 @@ const CustomDropdown = ({ name }) => {
         }
     };
 
-    // Attach an event listener to the window for closing the dropdown when clicked outside
     useEffect(() => {
         window.addEventListener('click', closeDropdown);
         return () => window.removeEventListener('click', closeDropdown);

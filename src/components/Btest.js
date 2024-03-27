@@ -37,8 +37,8 @@ const Btest = () => {
                             <img src={img2022} alt="" />
                         </div>
                         <div className="content" style={{ display: 'flex', flexDirection: 'column', rowGap: '5px', textAlign: 'start' }}>
-                            <h3 style={{ marginBottom: '0px' }}>blog title goes here</h3>
-                            <p style={{ padding: 0 , fontWeight : '700' }}>Introducing Campaigns</p>
+                            <h3 style={{ marginBottom: '0px' }}>Private Equity</h3>
+                            <p style={{ padding: 0, fontWeight: '700' }}>Introducing Campaigns</p>
                             <p style={{ fontSize: '14px', padding: 0 }}>With competition getting tougher in the private markets, becoming...</p>
                         </div>
                     </div>
@@ -48,8 +48,8 @@ const Btest = () => {
                             <img src={coding} alt="" />
                         </div>
                         <div className="content" style={{ display: 'flex', flexDirection: 'column', rowGap: '5px', textAlign: 'start' }}>
-                            <h3 style={{ marginBottom: '0px' }}>blog title goes here</h3>
-                            <p style={{ padding: 0 , fontWeight : '700' }}>Introducing Campaigns</p>
+                            <h3 style={{ marginBottom: '0px' }}>Investment Banking</h3>
+                            <p style={{ padding: 0, fontWeight: '700' }}>Introducing Podcasts</p>
                             <p style={{ fontSize: '14px', padding: 0 }}>With competition getting tougher in the private markets, becoming...</p>
                         </div>
                     </div>
@@ -59,8 +59,8 @@ const Btest = () => {
                             <img src={frag} alt="" />
                         </div>
                         <div className="content" style={{ display: 'flex', flexDirection: 'column', rowGap: '5px', textAlign: 'start' }}>
-                            <h3 style={{ marginBottom: '0px' }}>blog title goes here</h3>
-                            <p style={{ padding: 0 , fontWeight : '700' }}>Introducing Campaigns</p>
+                            <h3 style={{ marginBottom: '0px' }}>Consulting</h3>
+                            <p style={{ padding: 0, fontWeight: '700' }}>Introducing Templates</p>
                             <p style={{ fontSize: '14px', padding: 0 }}>With competition getting tougher in the private markets, becoming...</p>
                         </div>
                     </div>
@@ -69,8 +69,8 @@ const Btest = () => {
                             <img src={img2022} alt="" />
                         </div>
                         <div className="content" style={{ display: 'flex', flexDirection: 'column', rowGap: '5px', textAlign: 'start' }}>
-                            <h3 style={{ marginBottom: '0px' }}>blog title goes here</h3>
-                            <p style={{ padding: 0 , fontWeight : '700' }}>Introducing Campaigns</p>
+                            <h3 style={{ marginBottom: '0px' }}>Private Equity</h3>
+                            <p style={{ padding: 0, fontWeight: '700' }}>Introducing Campaigns</p>
                             <p style={{ fontSize: '14px', padding: 0 }}>With competition getting tougher in the private markets, becoming...</p>
                         </div>
                     </div>
@@ -80,8 +80,8 @@ const Btest = () => {
                             <img src={coding} alt="" />
                         </div>
                         <div className="content" style={{ display: 'flex', flexDirection: 'column', rowGap: '5px', textAlign: 'start' }}>
-                            <h3 style={{ marginBottom: '0px' }}>blog title goes here</h3>
-                            <p style={{ padding: 0 , fontWeight : '700' }}>Introducing Campaigns</p>
+                            <h3 style={{ marginBottom: '0px' }}>Investment Banking</h3>
+                            <p style={{ padding: 0, fontWeight: '700' }}>Introducing Podcasts</p>
                             <p style={{ fontSize: '14px', padding: 0 }}>With competition getting tougher in the private markets, becoming...</p>
                         </div>
                     </div>
@@ -91,8 +91,8 @@ const Btest = () => {
                             <img src={frag} alt="" />
                         </div>
                         <div className="content" style={{ display: 'flex', flexDirection: 'column', rowGap: '5px', textAlign: 'start' }}>
-                            <h3 style={{ marginBottom: '0px' }}>blog title goes here</h3>
-                            <p style={{ padding: 0 , fontWeight : '700' }}>Introducing Campaigns</p>
+                            <h3 style={{ marginBottom: '0px' }}>Consulting</h3>
+                            <p style={{ padding: 0, fontWeight: '700' }}>Introducing Templates</p>
                             <p style={{ fontSize: '14px', padding: 0 }}>With competition getting tougher in the private markets, becoming...</p>
                         </div>
                     </div>

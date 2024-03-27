@@ -27,12 +27,6 @@ const Operations = () => {
         calculateResult();
     }, [teamMembers, networkSize, signalsPerContact, legitimateSignals, uniqueSignals]);
 
-
-    // const calculateResult = () => {
-    //     let result = parseInt(teamMembers) * parseInt(networkSize) * parseFloat(signalsPerContact) * (parseInt(legitimateSignals) / 100) * (parseInt(uniqueSignals) / 100);
-    //     setCalculatedResult(result);
-    // }
-
     return (
         <>
             <div className="operations">
