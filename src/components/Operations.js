@@ -51,14 +51,14 @@ const Operations = () => {
                 <div className='part'>
                     <label className='labels style-item'>% Legitimate Signals</label>
                     <Box style={{ width: '90%' }}>
-                        <Slider defaultValue={50} aria-label="Default" valueLabelDisplay="auto" onChange={handleLegSignal} value={legitimateSignals} />
+                        <Slider style={{ color: 'rgba(135, 83, 212, 1)' }} defaultValue={50} aria-label="Default" valueLabelDisplay="auto" onChange={handleLegSignal} value={legitimateSignals} />
                     </Box>
                     {/* <input className='inputs' type="number" value={legitimateSignals} onChange={(e) => { setLegitimateSignals(e.target.value); }} /> */}
                 </div>
                 <div className='part'>
                     <label className='labels style-item'>% Unique/Hard To Discover Signals</label>
                     <Box style={{ width: '90%' }}>
-                        <Slider defaultValue={50} aria-label="Default" valueLabelDisplay="auto" onChange={handleSignalValue} value={uniqueSignals} />
+                        <Slider style={{ color: 'rgba(135, 83, 212, 1)' }} defaultValue={50} aria-label="Default" valueLabelDisplay="auto" onChange={handleSignalValue} value={uniqueSignals} />
                     </Box>
                     {/* <input className='inputs' type="number" value={uniqueSignals} onChange={(e) => { setUniqueSignals(e.target.value); }} /> */}
                 </div>
