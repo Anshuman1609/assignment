@@ -1,6 +1,7 @@
 import './App.css';
 import Blogs from './components/Blogs';
 import Calculator from './components/Calculator';
+import Footer from './components/Footer';
 import Hero from './components/Hero';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Hero />
       <Calculator />
       <Blogs />
+      <Footer />
     </div>
   );
 }

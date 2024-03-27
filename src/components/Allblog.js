@@ -35,6 +35,8 @@ const Allblog = () => {
                     </div>
                 </div>
             </div>
+
+            <button className='btn btn-primary load-more'>Load More</button>
         </>
     )
 }

@@ -36,3 +36,11 @@
     font-size: 18px;
     color: rgba(18, 9, 32, 1);
 }
+
+.load-more{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 120px;
+    left: 45%;
+    right: 45%;
+}
